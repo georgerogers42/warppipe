@@ -1,0 +1,12 @@
+[0m[[0mdebug[0m] [0mAligning /home/geo/android-sdk-linux/tools/zipalign -v 4 /home/geo/warp-pipe/target/warp-pipe-0.1.apk /home/geo/warp-pipe/target/warp-pipe-0.1-market.apk[0m
+[0m[[0mdebug[0m] [0mVerifying alignment of /home/geo/warp-pipe/target/warp-pipe-0.1-market.apk (4)...[0m
+[0m[[0mdebug[0m] [0m      50 META-INF/MANIFEST.MF (OK - compressed)[0m
+[0m[[0mdebug[0m] [0m     413 META-INF/GEORGE.SF (OK - compressed)[0m
+[0m[[0mdebug[0m] [0m     845 META-INF/GEORGE.DSA (OK - compressed)[0m
+[0m[[0mdebug[0m] [0m    1708 res/drawable/warp_pipe_preview.png (OK)[0m
+[0m[[0mdebug[0m] [0m    4414 AndroidManifest.xml (OK - compressed)[0m
+[0m[[0mdebug[0m] [0m    5164 resources.arsc (OK)[0m
+[0m[[0mdebug[0m] [0m    5933 classes.dex (OK - compressed)[0m
+[0m[[0mdebug[0m] [0m  215751 library.properties (OK - compressed)[0m
+[0m[[0mdebug[0m] [0mVerification succesful[0m
+[0m[[0minfo[0m] [0mAligned /home/geo/warp-pipe/target/warp-pipe-0.1-market.apk[0m

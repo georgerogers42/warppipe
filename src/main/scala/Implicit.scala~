@@ -1,0 +1,10 @@
+package com.georgerogers42.warppipe
+object Implicits {
+  def using[A](x : Closable)(f : Closable => Unit) {
+    try {
+      f(x)
+    } finally {
+      x.close()
+    }
+  }
+}

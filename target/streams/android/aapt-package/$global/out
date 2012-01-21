@@ -1,0 +1,1 @@
+[0m[[0mdebug[0m] [0mpackaging: /home/geo/android-sdk-linux/platform-tools/aapt package --auto-add-overlay -f -M /home/geo/warp-pipe/src/main/AndroidManifest.xml -S /home/geo/warp-pipe/src/main/res -A /home/geo/warp-pipe/src/main/assets -I /home/geo/android-sdk-linux/platforms/android-10/android.jar -F /home/geo/warp-pipe/target/resources.apk[0m

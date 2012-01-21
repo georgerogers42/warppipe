@@ -1,0 +1,30 @@
+package com.georgerogers42.warppipe
+
+import _root_.java.io._
+import _root_.android.app.Activity
+import _root_.android.os.Bundle
+import _root_.android.widget._
+import _root_.android.view._
+import _root_.android.content._
+import _root_.org.tautua.markdownpapers._
+class WarpActivity extends Activity {
+  import Implicits._
+  override def onCreate(savedInstanceState: Bundle) {
+    super.onCreate(savedInstanceState)
+    val layout = new LinearLayout(this)
+    layout.setOrientation(LinearLayout.VERTICAL)
+    val i = getIntent().getStringExtra(Intent.EXTRA_TEXT)
+    val convert = new Button(this)
+    convert.setText("Convert")
+    convert.setOnClickListener((v : View) => {
+      val m = new Markdown()
+      using(new FileReader(i))(input => {
+	using(new FileWriter(i + ".html"))(o => {
+	  m.transform(input,o)
+	})				 
+      })
+    })
+    layout.addView(convert)
+    setContentView(layout)
+  }
+}

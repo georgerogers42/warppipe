@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0m/home/geo/android-sdk-linux/platform-tools/adb -e install -r  /home/geo/warp-pipe/target/warp-pipe-0.1.apk[0m
+[0m[[0minfo[0m] [0m	pkg: /data/local/tmp/warp-pipe-0.1.apk[0m
+[0m[[0minfo[0m] [0mSuccess[0m
+[0m[[0minfo[0m] [0m519 KB/s (213552 bytes in 0.401s)[0m

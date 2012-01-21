@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mPackaging /home/geo/warp-pipe/target/warp-pipe-0.1.apk[0m
+[0m[[0mdebug[0m] [0mPackaging warp-pipe-0.1.apk[0m
+[0m[[0mdebug[0m] [0m/home/geo/warp-pipe/target/resources.apk:[0m
+[0m[[0mdebug[0m] [0m=> res/drawable/warp_pipe_preview.png[0m
+[0m[[0mdebug[0m] [0m=> AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0m=> resources.arsc[0m
+[0m[[0mdebug[0m] [0m/home/geo/warp-pipe/target/classes.dex => classes.dex[0m
+[0m[[0mdebug[0m] [0m/home/geo/warp-pipe/target/classes.min.jar:[0m
+[0m[[0mdebug[0m] [0m=> library.properties[0m
