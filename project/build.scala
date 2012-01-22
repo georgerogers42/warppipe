@@ -6,7 +6,7 @@ import AndroidKeys._
 object General {
   val settings = Defaults.defaultSettings ++ Seq (
     name := "Warp Pipe",
-    version := "0.1",
+    version := "0.2",
     scalaVersion := "2.9.1",
     libraryDependencies += 
       "org.tautua.markdownpapers" % "markdownpapers-core" % "1.2.3",

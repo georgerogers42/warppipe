@@ -19,7 +19,7 @@ class WarpActivity extends Activity {
     val result = new EditText(this)
     result.setLines(10)
     val txt = getIntent.getStringExtra("android.intent.extra.TEXT")
-    convert.setText(if(txt != null) txt else "")
+    convert.setText(if(txt != null) txt else "This program is covered under GPL v. 3 it can be downloaded [here](http://github.com/georgerogers42/warppipe)")
     val button = new Button(this)
     button.setText("Markdown")
     button.setOnClickListener((x : View) => {
