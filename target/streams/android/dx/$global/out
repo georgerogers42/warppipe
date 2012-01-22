@@ -1,1 +1,3 @@
-[0m[[0mdebug[0m] [0mdex file uptodate, skipping[0m
+[0m[[0mdebug[0m] [0m/home/geo/android-sdk-linux/platform-tools/dx -JXmx512m --dex --output=/home/geo/warp-pipe/target/classes.dex /home/geo/warp-pipe/target/classes.min.jar[0m
+[0m[[0minfo[0m] [0mDexing /home/geo/warp-pipe/target/classes.dex[0m
+[0m[[0mdebug[0m] [0m[0m

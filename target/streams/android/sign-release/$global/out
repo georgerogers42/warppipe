@@ -1,4 +1,4 @@
-[0m[[0mdebug[0m] [0mSigning jarsigner -verbose -keystore /home/geo/.keystore -storepass atbbst15 /home/geo/warp-pipe/target/warp-pipe-0.1.apk george[0m
+[0m[[0mdebug[0m] [0mSigning jarsigner -verbose -keystore /home/geo/.keystore -storepass atbbst15 /home/geo/warp-pipe/target/warp-pipe-0.2.apk george[0m
 [0m[[0mdebug[0m] [0m   adding: META-INF/MANIFEST.MF[0m
 [0m[[0mdebug[0m] [0m   adding: META-INF/GEORGE.SF[0m
 [0m[[0mdebug[0m] [0m   adding: META-INF/GEORGE.DSA[0m
@@ -7,4 +7,4 @@
 [0m[[0mdebug[0m] [0m  signing: resources.arsc[0m
 [0m[[0mdebug[0m] [0m  signing: classes.dex[0m
 [0m[[0mdebug[0m] [0m  signing: library.properties[0m
-[0m[[0minfo[0m] [0mSigned /home/geo/warp-pipe/target/warp-pipe-0.1.apk[0m
+[0m[[0minfo[0m] [0mSigned /home/geo/warp-pipe/target/warp-pipe-0.2.apk[0m
